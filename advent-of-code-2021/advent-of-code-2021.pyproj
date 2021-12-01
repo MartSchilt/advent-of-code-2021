@@ -23,6 +23,12 @@
   <ItemGroup>
     <Compile Include="advent_of_code_2021.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Day1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Day1\input.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
        Visual Studio and specify your pre- and post-build commands in
